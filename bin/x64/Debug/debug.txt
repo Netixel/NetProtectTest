@@ -1,0 +1,48 @@
+Mapping methods...
+Encrypted: NetProtectTest.exe::NetProtectTestVOID [0x06000002] with method: aes | Streamed? False
+Hashed: NetProtectTest.exe::NetProtectTestVOID [0x06000002] Value: auto-compute
+Encrypted: NetProtectTest.exe::TestlargeHeader [0x06000003] with method: aes | Streamed? False
+Hashed: NetProtect.dll::DetectDebuggers [0x06000045] Value: uncomputed
+Hashed: NetProtect.dll::StartForceBreak [0x06000046] Value: uncomputed
+Hashed: NetProtect.dll::ThreadContextCheck [0x06000049] Value: uncomputed
+Hashed: NetProtect.dll::IsRemoteDebugger [0x0600004c] Value: uncomputed
+Hashed: NetProtect.dll::DotNetDebugger [0x0600004f] Value: uncomputed
+Hashed: NetProtect.dll::ProcessNames [0x06000050] Value: uncomputed
+Hashed: NetProtect.dll::WindowTitles [0x06000051] Value: uncomputed
+Hashed: NetProtect.dll::ForceCrash [0x06000053] Value: uncomputed
+PreJIT: FindMatchingMethods
+PreJIT: DoesMatch
+PreJIT: FindMatchingMethods [Call]
+PreJIT: DoesMatch [Call]
+Mapping methods...
+Encrypted: NetProtectTest.exe::NetProtectTestVOID [0x06000002] with method: aes | Streamed? False
+Hashed: NetProtectTest.exe::NetProtectTestVOID [0x06000002] Value: auto-compute
+Encrypted: NetProtectTest.exe::TestlargeHeader [0x06000003] with method: aes | Streamed? False
+Hashed: NetProtect.dll::DetectDebuggers [0x06000045] Value: uncomputed
+Hashed: NetProtect.dll::StartForceBreak [0x06000046] Value: uncomputed
+Hashed: NetProtect.dll::ThreadContextCheck [0x06000049] Value: uncomputed
+Hashed: NetProtect.dll::IsRemoteDebugger [0x0600004c] Value: uncomputed
+Hashed: NetProtect.dll::DotNetDebugger [0x0600004f] Value: uncomputed
+Hashed: NetProtect.dll::ProcessNames [0x06000050] Value: uncomputed
+Hashed: NetProtect.dll::WindowTitles [0x06000051] Value: uncomputed
+Hashed: NetProtect.dll::ForceCrash [0x06000053] Value: uncomputed
+PreJIT: FindMatchingMethods
+PreJIT: DoesMatch
+PreJIT: FindMatchingMethods [Call]
+PreJIT: DoesMatch [Call]
+Mapping methods...
+Encrypted: NetProtectTest.exe::NetProtectTestVOID [0x06000002] with method: aes | Streamed? False
+Hashed: NetProtectTest.exe::NetProtectTestVOID [0x06000002] Value: auto-compute
+Encrypted: NetProtectTest.exe::TestlargeHeader [0x06000003] with method: aes | Streamed? False
+Hashed: NetProtect.dll::DetectDebuggers [0x06000045] Value: uncomputed
+Hashed: NetProtect.dll::StartForceBreak [0x06000046] Value: uncomputed
+Hashed: NetProtect.dll::ThreadContextCheck [0x06000049] Value: uncomputed
+Hashed: NetProtect.dll::IsRemoteDebugger [0x0600004c] Value: uncomputed
+Hashed: NetProtect.dll::DotNetDebugger [0x0600004f] Value: uncomputed
+Hashed: NetProtect.dll::ProcessNames [0x06000050] Value: uncomputed
+Hashed: NetProtect.dll::WindowTitles [0x06000051] Value: uncomputed
+Hashed: NetProtect.dll::ForceCrash [0x06000053] Value: uncomputed
+PreJIT: FindMatchingMethods
+PreJIT: DoesMatch
+PreJIT: FindMatchingMethods [Call]
+PreJIT: DoesMatch [Call]
