@@ -13,10 +13,25 @@ namespace NetProtectTest
 {
     public partial class Form1 : Form
     {
+        
+        class User
+        {
+            public bool isAuthenticated = false;
+            public string DownloadKey() { return "";  }
+        }
+        User user;
+
+
+
         public Form1()
         {
-            JitEncrypt jit = new JitEncrypt("http://dev.lystic.net/netprotect/test.php");//note this should point to your own web files (you can leave this as is to test on my own hosting)
-            jit.Enable();
+            if(user.isAuthenticated)
+            {
+                string key = user.DownloadKey();
+                JitEncrypt jit = new JitEncrypt("http://your.website.net/netprotect/api.php");
+                jit.SetDecryptionKey(key);
+                jit.Enable();
+            }
 
             InitializeComponent();
 
@@ -24,14 +39,18 @@ namespace NetProtectTest
                 NetProtectTestVOID();
         }
 
-        [MethodHash("auto-compute")]//This attribute hashes the decrypted bytes to verify they have not been modified during runtime. 
-        [ClrEncrypted(EncryptionType.aes, false)]//This attribute signifies that this method is going to be encrypted
+
+
+
+
+        [MethodHash("auto-compute")]//Method hash protection
+        [ClrEncrypted(EncryptionType.aes, false)]//AES Enmcryption flag
         public void NetProtectTestVOID()
         {
             this.Text = "Void test";
         }
 
-        [ClrEncrypted(EncryptionType.aes, false)]//note that the parameters are: [Encryption Type] & [Remote Streamed] 
+        [ClrEncrypted(EncryptionType.aes, false)]//[Encryption Type], [Remote Streamed] 
         public bool TestlargeHeader()
         {
             return true;

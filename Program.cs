@@ -14,6 +14,8 @@ namespace NetProtectTest
         [STAThread]
         static void Main()
         {
+            CollectionTesting.Main();
+            return;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

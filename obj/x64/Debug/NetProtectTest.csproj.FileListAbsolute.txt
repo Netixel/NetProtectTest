@@ -21,3 +21,14 @@ J:\Github\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.csp
 J:\Github\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.csproj.CopyComplete
 J:\Github\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.exe
 J:\Github\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.pdb
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\bin\x64\Debug\NetProtectTest.exe.config
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\bin\x64\Debug\NetProtectTest.exe
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\bin\x64\Debug\NetProtectTest.pdb
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\bin\x64\Debug\NetProtect.dll
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\bin\x64\Debug\NetProtect.pdb
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.csprojAssemblyReference.cache
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.Properties.Resources.resources
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.csproj.GenerateResource.cache
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.csproj.CopyComplete
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.exe
+G:\Software Projects\Professional Projects\NetProtect\Application\NetProtectTest\obj\x64\Debug\NetProtectTest.pdb
